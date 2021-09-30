@@ -1,0 +1,42 @@
+.profile {
+  padding-top: 30vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.profile__delete-avatar {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background: none;
+  padding: 5px 10px;
+  border: 2px solid #566885;
+  font-size: 14px;
+}
+.profile__back {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: none;
+  padding: 5px 10px;
+  border: 2px solid #566885;
+  text-align: center;
+  text-decoration: none;
+}
+.profile__upload-input {
+  display: none;
+}
+.profile__upload-label {
+  border: 2px dashed #566885;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.profile__select {
+  margin-left: auto;
+  margin-right: 5px;
+}
